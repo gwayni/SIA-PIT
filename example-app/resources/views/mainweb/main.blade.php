@@ -39,8 +39,10 @@
          <p class="role">studen</p>
          <a href="profile.html" class="btn">view profile</a>
          <div class="flex-btn">
-            <a href="login.html" class="option-btn">login</a>
-            <a href="register.html" class="option-btn">register</a>
+            
+            <a href="{{ route('login') }}" class="option-btn">login</a>
+            <a href="{{ route('register') }}" class="option-btn">register</a>
+            
          </div>
       </div>
 
